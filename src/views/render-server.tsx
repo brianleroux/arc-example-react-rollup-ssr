@@ -14,8 +14,10 @@ function render(params) {
 <html>
 <body>
 <div id=root>${body}</div>
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 <script>window.STATE=${JSON.stringify(params)}</script>
-<script src=/_static/client.js></script>
+<script src=/_static/render-client.js></script>
 </body>
 </html>`
 }

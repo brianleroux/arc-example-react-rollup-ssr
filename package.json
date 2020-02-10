@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A fresh new Architect project!",
   "scripts": {
-    "build": "rollup -c",
+    "build": "NODE_ENV=production rollup -c",
     "start": "npm run build && sandbox"
   },
   "dependencies": {
